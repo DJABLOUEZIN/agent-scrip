@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ ${UID} -ne 0 ]
+if [ ${C} -ne 0 ]
 
 echo
 then 
@@ -20,8 +20,12 @@ then  echo "This server is very samll"
 
 exit 2
 
+echo "new changew"
+
+
 fi
 
+exit 99
 
 
 
